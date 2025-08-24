@@ -29,7 +29,7 @@ Este projeto foi construído com as seguintes tecnologias:
 
 Certifique-se de que você tem o ambiente **Node.js** instalado, pois ele é necessário para executar o projeto e suas dependências.
 
-- **Node.js** → [Versão recomendada]
+- **Node.js**
 - **npm** ou **Yarn** → Gerenciadores de pacotes.
 
 ### 📥 Instalação
@@ -37,7 +37,7 @@ Certifique-se de que você tem o ambiente **Node.js** instalado, pois ele é nec
 1. Clone este repositório:
 
 ```bash
-git clone [URL_DO_REPOSITÓRIO]
+git clone https://github.com/ilucaslima/readgenerate.git
 ```
 
 2. Navegue para o diretório do projeto:
