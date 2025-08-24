@@ -1,59 +1,85 @@
-# Readgenerate
+# ReadGenerate - Gere facilmente o seu README
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.5.
+Uma ferramenta web intuitiva para gerar arquivos README de alta qualidade de forma rápida e simples, **sem a necessidade de login**.  
+Ideal para desenvolvedores que buscam agilizar a documentação de seus projetos.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🌟 Recursos
 
-```bash
-ng serve
-```
+- **Geração Instantânea:** Crie um README completo preenchendo apenas algumas informações.
+- **Sem Login:** Use a ferramenta diretamente, sem a burocracia de criar uma conta.
+- **Totalmente Gratuito:** O projeto é de código aberto e livre para ser utilizado por qualquer pessoa.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🛠 Tecnologias
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Este projeto foi construído com as seguintes tecnologias:
 
-```bash
-ng generate component component-name
-```
+- **Angular v20** → Framework poderoso para construção de aplicativos web.
+- **JavaScript** → Lógica essencial para o frontend.
+- **HTML e CSS** → Estrutura e estilo da interface.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🚀 Primeiros Passos
 
-## Building
+### ✅ Pré-requisitos
 
-To build the project run:
+Certifique-se de que você tem o ambiente **Node.js** instalado, pois ele é necessário para executar o projeto e suas dependências.
 
-```bash
-ng build
-```
+- **Node.js** → [Versão recomendada]
+- **npm** ou **Yarn** → Gerenciadores de pacotes.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### 📥 Instalação
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+1. Clone este repositório:
 
 ```bash
-ng test
+git clone [URL_DO_REPOSITÓRIO]
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+2. Navegue para o diretório do projeto:
 
 ```bash
-ng e2e
+cd ReadGenerate
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+3. Instale as dependências:
 
-## Additional Resources
+```bash
+npm install
+# ou
+yarn
+```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### ▶️ Como Usar
+
+Para iniciar o projeto em modo de desenvolvimento:
+
+```bash
+npm run start
+# ou
+yarn start
+```
+
+---
+
+## 🤝 Como Contribuir
+
+Este é um projeto de **código aberto**, e contribuições são muito bem-vindas!  
+Se você tiver alguma ideia ou encontrar um bug, sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**.
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a **Licença MIT** – veja o arquivo LICENSE para detalhes.  
+É uma licença permissiva, que oferece grande flexibilidade para reutilização.
+
+---
+
+## ✉️ Contato
+
+**Lucas Lima** → [GitHub](http://github.com/ilucaslima)

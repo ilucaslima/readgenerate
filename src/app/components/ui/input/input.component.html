@@ -1,12 +1,16 @@
 <div class="input-component">
-  <label for="input">Qual o nome do projeto?</label>
-  <input type="text" placeholder="Digite aqui..." />
+  <label for="input">{{ currentQuestion?.label }}</label>
+  <input
+    [(ngModel)]="inputValue"
+    type="text"
+    placeholder="{{ currentQuestion?.placeholder }}"
+  />
   <div class="app-input-instructions">
-    <p>
+    <p (click)="previousQuestion()">
       <b>Esc</b>
       para voltar
     </p>
-    <p>
+    <p (click)="nextQuestion()">
       <b>Enter</b>
       para avançar
     </p>
