@@ -1,6 +1,7 @@
 import { Component, HostListener, Input } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Question } from '../../../../static/questions';
+import { ReadmeService } from '../../../services/readme.service';
 
 interface IAnswers {
   id: string;
@@ -24,6 +25,13 @@ export class InputComponent {
     return this.question?.[this.currentIndex];
   }
 
+  constructor(private readmeService: ReadmeService) {}
+
+  generateReadmeAndDownload() {
+    const content = this.readmeService.generateReadme(this.answers);
+    this.readmeService.downloadReadme(content);
+  }
+
   nextQuestion() {
     if (this.currentIndex < this.question.length) {
       const answerItem = this.answers.find(
@@ -37,14 +45,13 @@ export class InputComponent {
           answer: this.inputValue,
         });
       }
-      console.log(this.inputValue);
       this.inputValue = '';
       if (this.currentIndex < this.question.length - 1) {
         this.currentIndex++;
         return;
       }
     }
-    console.log('gerar readgenerate', this.answers);
+    this.generateReadmeAndDownload();
   }
 
   previousQuestion() {

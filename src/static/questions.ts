@@ -54,11 +54,6 @@ export const Question = [
     placeholder: 'Ex: Abra uma issue ou envie um pull request...',
   },
   {
-    id: 'license',
-    label: 'Qual a licença do projeto?',
-    placeholder: 'Ex: MIT',
-  },
-  {
     id: 'name',
     label: 'Qual o seu nome ou nome da equipe?',
     placeholder: 'Ex: Lucas Lima',
